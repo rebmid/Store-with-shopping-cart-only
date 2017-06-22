@@ -50,38 +50,37 @@ namespace Store.Models
                 new Product
                 {
                     ProductID = 1,
-                    ProductName = "Convertible Car",
-                    Description = "This convertible car is fast! The engine is powered by a neutrino based battery (not included)." +
-                                  "Power it up and let it go!",
-                    ImagePath="carconvert.png",
-                    UnitPrice = 22.50,
+                    ProductName = "Lipsense Lipstick",
+                    Description = "Apple Cider",
+                    ImagePath="applecider.png",
+                    UnitPrice = 25.00,
                     CategoryID = 1
                },
                 new Product
                 {
                     ProductID = 2,
-                    ProductName = "Old-time Car",
-                    Description = "There's nothing old about this toy car, except it's looks. Compatible with other old toy cars.",
-                    ImagePath="carearly.png",
-                    UnitPrice = 15.95,
+                    ProductName = "Lipsense Lipstick",
+                    Description = "First Love",
+                    ImagePath="firstlove.png",
+                    UnitPrice = 25.00,
                      CategoryID = 1
                },
                 new Product
                 {
                     ProductID = 3,
-                    ProductName = "Fast Car",
-                    Description = "Yes this car is fast, but it also floats in water.",
-                    ImagePath="carfast.png",
-                    UnitPrice = 32.99,
+                    ProductName = "Lipsense Gloss",
+                    Description = "Glossy Gloss",
+                    ImagePath="glossygloss.png",
+                    UnitPrice = 25.00,
                     CategoryID = 1
                 },
                 new Product
                 {
                     ProductID = 4,
-                    ProductName = "Super Fast Car",
-                    Description = "Use this super fast car to entertain guests. Lights and doors work!",
-                    ImagePath="carfaster.png",
-                    UnitPrice = 8.95,
+                    ProductName = "Lipsense Gloss",
+                    Description = "Matte Gloss",
+                    ImagePath="mattegloss.png",
+                    UnitPrice = 25.00,
                     CategoryID = 1
                 },
                 new Product

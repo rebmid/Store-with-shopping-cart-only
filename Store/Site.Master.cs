@@ -9,6 +9,8 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using System.Linq;
 using Store.Models;
+using Store.Logic;
+
 
 namespace Store
 {
@@ -73,6 +75,16 @@ namespace Store
         {
 
         }
+
+        protected void Page_PreRender(object sender, EventArgs e)
+        {
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
+        }
+
         public IQueryable<Category> GetCategories()
         {
             var _db = new Store.Models.ProductContext();
